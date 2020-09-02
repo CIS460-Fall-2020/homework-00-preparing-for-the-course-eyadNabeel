@@ -4,10 +4,8 @@ TARGET = 277
 TEMPLATE = app
 CONFIG += console
 CONFIG += c++11
-LIBS += -lopengl32
-LIBS += -lglut32
-LIBS += -lglu32
-CONFIG += warn_on
+LIBS += -framework GLUT
+LIBS += -framework OpenGLCONFIG += warn_on
 CONFIG += debug
 
 INCLUDEPATH += include
